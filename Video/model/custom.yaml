@@ -1,0 +1,14 @@
+##path: ../datasets/coco128  # dataset root dir
+train: /content/data/images/train  # train images (relative to 'path') 128 images
+val: /content/data/images/val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: "10"
+  1: "20"
+  2: "50"
+  3: "100"
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
